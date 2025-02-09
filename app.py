@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit_authenticator as stauth
 import psutil
 import plotly.express as px
 
@@ -32,3 +33,4 @@ if __name__ == '__main__':
                            color_discrete_map={"Used VMEM": "tomato", "Free VMEM": "oceanblue"},
                            hole=0.5)
                     )
+    st.write(stauth.Hasher.hash('arsenios'))

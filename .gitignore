@@ -173,8 +173,8 @@ cython_debug/
 # Pycharm
 .idea
 .DS_Store
-.venv
 
 # Streamlit
 .streamlit
+secrets.toml
 
