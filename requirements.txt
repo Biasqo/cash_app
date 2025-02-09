@@ -39,5 +39,5 @@
  watchdog==6.0.0
  streamlit-authenticator==0.4.1
  pyyaml==6.0.2
- psutil
+ psutil==6.1.1
  plotly
