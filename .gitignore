@@ -177,4 +177,5 @@ cython_debug/
 # Streamlit
 .streamlit
 secrets.toml
+config.toml
 
